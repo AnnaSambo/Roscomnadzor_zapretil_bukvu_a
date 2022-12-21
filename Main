@@ -1,0 +1,7 @@
+s=input()+' запретил букву'
+for i in range(1072,1104):
+  if chr(i) in s:     
+    print(*s.split(), chr(i))
+    s=s.replace(chr(i), '')
+  
+    
